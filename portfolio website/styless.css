@@ -1,0 +1,360 @@
+body{
+    font-family: futura-pt;
+    padding: 0;
+    margin: 0;
+}
+section{
+    background-color: rgb(255, 255, 255);
+    
+
+}
+.first{
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+    color: #000000;
+    font-size: 30px;
+}
+.primera{
+  
+}
+
+
+.hover1{
+    display: inline-block;
+    padding-bottom: 0.25rem;
+    position: relative;
+}
+.hover1::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 3px;
+    background-color: rgb(0, 0, 0);
+    transition: width 0.25s ease-out;
+}
+.hover1:hover::before{
+    width: 100%;
+
+}
+.hover2{
+    display: inline-block;
+    padding-bottom: 0.25rem;
+    position: relative;
+    transition: width 0.25s ease-out;
+    
+}
+.hover2::before{
+    content:"";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 3px;
+    background-color: rgb(0, 0, 0);
+  
+}
+.hover2::before{
+    width: 100%;
+
+}
+.hover3{
+    display: inline-block;
+    padding-bottom: 0.25rem;
+    position: relative;
+}
+.hover3::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 3px;
+    background-color: rgb(0, 0, 0);
+    transition: width 0.25s ease-out;
+}
+.hover3:hover::before{
+    width: 100%;
+
+}
+.hover4{
+    display: inline-block;
+    padding-bottom: 0.25rem;
+    position: relative;
+}
+.hover4::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 3px;
+    background-color: rgb(0, 0, 0);
+    transition: width 0.25s ease-out;
+}
+.hover4:hover::before{
+    width: 100%;
+
+}
+.blockh{
+
+}
+@keyframes{
+    0%{
+        transform: translate( 400%);
+    }
+    100%{
+        position: left 10px ;
+    }
+}
+.second{
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    padding: 60px;
+    scroll-behavior: smooth;
+}
+.second-alt{
+    color: #000000;
+    display: flex;
+    height: 100vh;
+    padding: 60px;
+    flex-direction: column;
+    background-color: #ffffff;
+}
+/* skills */
+.skillone{
+    height: 30px;
+    width: 900px;
+    background: black;
+    border-radius: 50px;
+    animation: skillone 5s 10;
+}
+.skilltwo{
+    height: 30px;
+    width: 800px;
+    background: black;
+    border-radius: 50px;
+    animation: skilltwo 5s 10;
+}
+.skillthree{
+    height: 30px;
+    width: 500px;
+    background: black;
+    border-radius: 50px;
+    animation: skillthree 5s 10;
+}
+.skillfour{
+    height: 30px;
+    width: 400px;
+    background: black;
+    border-radius: 50px;
+    animation: skillfour 5s 10;
+}
+@keyframes skillone{
+    0%{
+        height: 30px;
+        width: 0px;
+        background: black;
+        border-radius: 50px;
+
+    }
+    100%{
+        height: 30px;
+        width: 900px;
+        background: black;
+        border-radius: 50px;
+    }
+}
+@keyframes skilltwo{
+    0%{  height: 30px;
+        width: 0px;
+        background: black;
+        border-radius: 50px;
+
+    }
+    100%{
+        height: 30px;
+        width: 800px;
+        background: black;
+        border-radius: 50px;
+
+    }
+}
+@keyframes skillthree{
+    0%{
+        height: 30px;
+        width: 0px;
+        background: black;
+        border-radius: 50px;
+    }
+    100%{
+        height: 30px;
+        width: 500px;
+        background: black;
+        border-radius: 50px;
+    }
+
+}
+@keyframes skillfour{
+    0%{
+        height: 30px;
+        width: 0px;
+        background: black;
+        border-radius: 50px;
+
+    }
+    100%{
+        height: 30px;
+        width: 400px;
+        background: black;
+        border-radius: 50px;
+
+    }
+}
+
+
+footer{
+    height: 400px;
+    background-color: #000000;
+    padding: 60px;
+}
+.input{
+    height: 400px;
+}
+.form{
+ 
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    border: #000000;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    width: 500px;
+    justify-content: space-around;
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 33px;
+    margin-top: 10px;
+
+}
+h1{
+    font-size: 100px;
+    margin: 0;
+    color: #000000;
+}
+h2{
+    font-size: 50px;
+    color: #000000;
+    
+}
+h3{
+    color: #000000;
+}
+p{
+    font-size: 60px;
+    color: #000000;
+
+}
+.block{
+    color: aqua;
+    height: 40px;
+    width: 40px;
+}
+.firstarea{
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.first-text{
+    margin-left: 0px;
+    margin-bottom: 200px;
+    padding: 60px;
+}
+.button:hover{
+    background-color: #ffffff;
+}
+.button:active{
+    background-color: rgba(25, 62, 62, 0.747);
+    color: #ffffff;
+}
+.socials{
+    padding-bottom: 200px;
+}
+.logo{
+    height: 80px;
+    margin: 30px;
+}
+.social{
+    margin: 30px;
+}
+.headshot{
+    width: 200px;
+    border-radius: 150px;
+}
+.headshot-container{
+    display: flex;
+    align-items: center;
+    margin-bottom: 400px;
+
+}
+.project-card{
+   height: 300px;
+}
+.project-container{
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
+
+}
+.projects{
+    width: 100%;
+    width: 100px;
+}
+.information{
+    width: 100%;
+}
+.projectcard1{
+    height: 300px;
+}
+.projectcard2{
+    height: 300px;
+}
+
+/* project1 */
+.projsection1{
+    flex-direction: column;
+
+}
+.projectoned{
+    padding: 60px;
+}
+.dreamcatcher{
+    height: 400px;
+    padding: 60px;
+    display: flex;
+
+}
+.project1-container{
+    display: flex;
+
+}
+.projectonenav{
+    display: flex;
+    
+}
+/* project2 */
+/* project3 */
+/* project4 */
+/* project5 */
