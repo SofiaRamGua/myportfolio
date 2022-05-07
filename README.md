@@ -1,2 +1,0 @@
-# portfoliowebsite
-portfoliowebsite/assets/
